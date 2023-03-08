@@ -1,2 +1,12 @@
 header{background-color: blue;
-color: blue;
+color: rgb(212, 140, 57);
+display: flex;
+justify-content: space-around;}
+.imagem-cabecalho{width: 20%;}
+li {
+    display: inline-block;
+}
+h1 {
+    margin:  0 120px;
+    padding: 300px 0;
+}
