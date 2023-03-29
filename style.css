@@ -1,12 +1,46 @@
-header{background-color: blue;
-color: rgb(212, 140, 57);
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{background-color:rgb(158, 15, 15);
+color: rgb(230, 226, 206);
 display: flex;
-justify-content: space-around;}
-.imagem-cabecalho{width: 20%;}
-li {
-    display: inline-block;
+justify-content: space-around;
+padding:24px 0;}
+
+.imagem-cabecalho{
+widht: 45%;
+height: 5%;
 }
-h1 {
-    margin:  0 120px;
-    padding: 115px 0;
+
+h1
+{display:inline-block;
+margin: 0 16px;
+padding: 100px 0;
+font-size: 40px;}
+
+li
+{ display:inline-block;
+margin:0 16 px;
+padding:24px 0;
+font-size: 24px;}
+
+.escola-imagem{
+   width: 70%;
 }
+.escola{
+    background-image: linear-gradient(rgb(158, 15, 15),black );
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;}
+
+    .escola-conteudo
+    {widht:50%;}
+
+    .escola-titulo
+    {padding:50px 30px;}
+    .aluno-um{
+    width: 10%;
+    }
