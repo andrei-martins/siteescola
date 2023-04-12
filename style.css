@@ -1,47 +1,47 @@
 *{
-    margin: 22;
-    padding: 22;
+    margin: 0;
+    padding: 0;
 }
-body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif                                                                                                                                                                                                                                                                                        ;}
-.cabecalho{background-color:rgb(158, 15, 15);
-color: rgb(230, 226, 206);
-display: flex;
+body{font-family: 'Times New Roman', Times, serif;}
+
+header {background-color:red;
+display:flex;
 justify-content: space-around;
-padding:24px 0;}
-
-.imagem-cabecalho{
-widht: 45%;
-height: 5%;
+padding: 30px 0;}
+.imagem-cabecalho {
+    width: 25%;
+    padding: 20px;
 }
 
-h1
-{display:inline-block;
-margin: 0 16px;
-padding: 100px 0;
-font-size: 40px;}
 
-li
-{ display:inline-block;
-margin:0 16 px;
-padding:24px 0;
-font-size: 24px;}
-
+li {
+    display: inline-block; 
+    margin: 0 35px;
+    padding: 80px 0;
+    font-size: 20px;
+}
+h1 {
+    margin: 0 400px;
+    padding: 150px 0;
+    font-size: 30px;
+}
 .escola-imagem{
-   width: 70%;
+    width: 10%;
 }
-.escola{
-    background-image: linear-gradient(rgb(158, 15, 15),black );
-    color:white;
-    display:flex;
+.escola {
+    background-image: linear-gradient(red,black);
     justify-content: center;
+    display: flex;
     align-items: center;
     padding: 24px 0;}
-
-    .escola-conteudo
-    {widht:50%;}
-
-    .escola-titulo
-    {padding:50px 30px;}
     .aluno-um{
-    width: 10%;
+        width: 22%;
     }
+    .estudante-titulo
+    {
+    text-align: center;
+    padding: 50px 0%;
+    font-size: 30px;
+    }
+    
+    
