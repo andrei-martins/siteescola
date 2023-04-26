@@ -18,7 +18,7 @@ li {
     display: inline-block; 
     margin: 0 35px;
     padding: 80px 0;
-    font-size: 20px;
+    font-size: px;
 }
 h1 {
     margin: 0 400px;
@@ -36,6 +36,7 @@ h1 {
     padding: 24px 0;}
     .aluno-um{
         width: 22%;
+        height: 200px;
     }
     .estudante-titulo
     {
@@ -52,5 +53,16 @@ h1 {
         text-align: center;
     }
     
-    
-    
+.estudante-todos
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+footer  
+{
+    background-color: brown;
+    color: blue;
+} 
+.estudante{
+    background-color: blueviolet;
+}
